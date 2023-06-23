@@ -141,7 +141,8 @@ In JavaScript, every object has a property called prototype which refers to anot
 When you access a property of an object, JavaScript looks for the property in the object itself. If the property is not found, it looks in the object's prototype, then in the prototype's prototype, and so on until it either finds the property or reaches the end of the prototype chain.
 
 Here is an example code that demonstrates the prototype chain in JavaScript:
-```// Define a constructor function
+```
+// Define a constructor function
 function Animal(name) {
   this.name = name;
 }
@@ -168,7 +169,8 @@ Inheritance in JavaScript refers to the concept of creating new objects based on
 One way to implement inheritance in JavaScript is by using function constructors. A function constructor is a function that is used to create new objects. To create a child object that inherits from a parent object using function constructors, we can use the Object.create() method.
 
 Here's an example:
-```// Parent function constructor
+```
+// Parent function constructor
 function Person(name, age) {
   this.name = name;
   this.age = age;
